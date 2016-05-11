@@ -6,3 +6,6 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+store = Store.last
+store.destroy
+puts Store.count
